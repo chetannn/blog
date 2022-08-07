@@ -3,6 +3,7 @@
 
 <div class="max-w-5xl bg-white mx-auto antialiased font-nunito p-12 bg-gray-50 dark:bg-gray-700">
    <Html lang="en" />
+  <Meta property="og:image" content="/cover.jpg" />
   <Header />
 
 <main class="my-16">

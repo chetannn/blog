@@ -18,7 +18,7 @@
     <CustomNuxtLink to="/blogs" class="mb-6 block md:mb-0">Thoughts</CustomNuxtLink>
     <CustomNuxtLink to="/uses" class="mb-6 block md:mb-0">Uses</CustomNuxtLink>
 
-    <button @click="onClick" class="mb-6 block md:mb-0" aria-label="Color Mode">
+    <button @click="onClick" class="block md:mb-0" aria-label="Color Mode">
       <ColorScheme placeholder="..." tag="span">
     <MoonIcon v-if="colorMode.value === 'dark'" class="h-5 w-5 text-gray-500 dark:text-white" />
     <SunIcon v-else class="h-5 w-5 text-gray-500 dark:text-white" />
