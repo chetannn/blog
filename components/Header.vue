@@ -1,6 +1,6 @@
 <script setup>
-  import {  SunIcon } from '@heroicons/vue/outline'
-  import { MoonIcon } from '@heroicons/vue/outline'
+  import {  SunIcon } from '@heroicons/vue/outline/index.js'
+  import { MoonIcon } from '@heroicons/vue/outline/index.js'
 
   const colorMode = useColorMode()
   const onClick = () => (colorMode.value === 'light' ? (colorMode.preference = 'dark') : (colorMode.preference = 'light'))
