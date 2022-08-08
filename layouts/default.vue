@@ -30,6 +30,6 @@ body {
 }
 
 .bar::after {
-    @apply h-2 absolute max-w-md left-[5%] bg-green-400 w-full content-[''] top-[90%] rounded;
+    @apply h-2 absolute max-w-md left-[0%] bg-green-400 w-full content-[''] top-[90%] rounded mt-3;
 }
 </style>

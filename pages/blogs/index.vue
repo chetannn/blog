@@ -2,6 +2,12 @@
  const articles = await queryContent('blogs').only(['_path','title', 'excerpt'])
  .sort({ date: -1 })
  .find()
+
+   useHead({
+  title: 'Chetan Kharel - Thoughts',
+  meta: [
+    { name: 'description', content: 'Chetan\'s Blog' }
+  ],
  </script>
  
  <template>

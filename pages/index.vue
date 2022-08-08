@@ -3,6 +3,13 @@
     .sort({ date: -1 })
     .limit(6)
     .find()
+
+    useHead({
+  title: 'Chetan Kharel - Home',
+  meta: [
+    { name: 'description', content: 'Chetan\'s Blog' }
+  ],
+})
  </script>
 
  <template>
@@ -10,8 +17,8 @@
 
    <div class="grid grid-cols-1 md:grid-cols-2 md:gap-10 content-center items-center gap-5 mb-12 dark:text-white leading-relaxed">
 
-      <p class="text-center md:text-left">Hey, I'm Chetan Kharel. A software engineer based in Kathmandu, Nepal. Mostly, I work with Laravel and databases. I love to write about my experiences, productivity tools and play games.</p>
-      <img src="/cover.jpg" class="order-first rounded-full w-18 h-18 object-fit mx-auto md:order-last md:mx-0" />
+      <p class="text-center md:text-left">Hey 👋🏼, I'm Chetan Kharel. A software engineer based in Kathmandu, Nepal. Mostly, I work with Laravel and databases. I love to write about my experiences, productivity tools and play games.</p>
+      <img src="/cover.jpg" class="order-first rounded-full w-18 h-18 object-fit mx-auto md:order-last md:mx-0" alt="Chetan" />
 
    </div>
 
