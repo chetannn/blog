@@ -7,7 +7,7 @@
   title: 'Chetan Kharel - Thoughts',
   meta: [
     { name: 'description', content: 'Chetan\'s Blog' }
-  ],
+  ]})
  </script>
  
  <template>
