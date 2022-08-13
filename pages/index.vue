@@ -22,7 +22,7 @@
 
    </div>
 
-    <h2 class="relative text-2xl font-bold mb-12 dark:text-white bar">From the Blog</h2>
+    <h2 class="relative text-2xl font-bold mb-12 dark:text-white bar">Recently Added</h2>
 
   <ArticleCard :article="article" v-for="article in articles" :key="article._path" />
 

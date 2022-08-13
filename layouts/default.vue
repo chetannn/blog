@@ -12,7 +12,7 @@
 
 <footer class="dark:text-white">
   <div class="flex justify-between">
-    <p>Built with Vue, Nuxt and Nuxt Content</p>
+    <p>Built with <NuxtLink target="_blank" to="https://v3.nuxtjs.org" class="underline font-bold dark:text-green-400">Nuxt</NuxtLink> and <NuxtLink target="_blank" to="https://content.nuxtjs.org" class="underline font-bold dark:text-green-400">Nuxt Content</NuxtLink></p>
 
     <div class="flex gap-5">
       <NuxtLink to="https://github.com/chetannn" class="underline font-bold dark:text-green-400">Github</NuxtLink>
