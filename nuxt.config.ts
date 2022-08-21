@@ -15,7 +15,14 @@ export default defineNuxtConfig({
   },
   content: {
     highlight: {
-      theme: 'min-dark'
+      theme: 'min-dark',
+      preload: [
+        'php',
+        'ts',
+        'js',
+        'bash',
+        'xml'
+      ]
     }
   },
   googleFonts: {
