@@ -1,23 +1,21 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: 'class',
+  darkMode: "class",
   content: [
-     `components/**/*.{vue,js}`,
+    `components/**/*.{vue,js}`,
     `layouts/**/*.vue`,
     `pages/**/*.vue`,
     `composables/**/*.{js,ts}`,
     `plugins/**/*.{js,ts}`,
     `App.{js,ts,vue}`,
     `app.{js,ts,vue}`,
-    'content/**/*.{md,yml,json,json5,csv}'
+    "content/**/*.{md,yml,json,json5,csv}",
   ],
   theme: {
     extend: {},
     fontFamily: {
-      'nunito': 'Nunito'
-    }
+      nunito: "Nunito",
+    },
   },
-  plugins: [
-    require('@tailwindcss/typography')
-  ]
-}
+  plugins: [require("@tailwindcss/typography")],
+};

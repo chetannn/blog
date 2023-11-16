@@ -1,33 +1,26 @@
-import { defineNuxtConfig } from 'nuxt'
+import { defineNuxtConfig } from "nuxt/config";
 
-// https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-    modules: [
-        '@nuxt/content',
-        '@nuxtjs/tailwindcss',
-        '@nuxtjs/color-mode',
-    ],
-    buildModules: [
-    '@nuxtjs/google-fonts'
+  modules: [
+    "@nuxt/content",
+    "@nuxtjs/tailwindcss",
+    "@nuxtjs/color-mode",
+    "@nuxtjs/google-fonts",
   ],
   colorMode: {
-    classSuffix: ''
+    classSuffix: "",
+    preference: "system",
+    fallback: "light",
   },
   content: {
     highlight: {
-      theme: 'min-dark',
-      preload: [
-        'php',
-        'ts',
-        'js',
-        'bash',
-        'xml'
-      ]
-    }
+      theme: "min-dark",
+      preload: ["php", "ts", "js", "bash", "xml"],
+    },
   },
   googleFonts: {
     families: {
-      Nunito: [400, 700]
-    }
-  }
-})
+      Nunito: [400, 700],
+    },
+  },
+});
